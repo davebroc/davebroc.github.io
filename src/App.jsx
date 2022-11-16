@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Navbar from './components/Sidebar.jsx'
+import Navbar from './components/Navbar.jsx'
 import About from './sections/About.jsx'
 import Welcome from './sections/Welcome.jsx'
 import Skills from './sections/Skills.jsx'
@@ -7,7 +7,7 @@ import Skills from './sections/Skills.jsx'
 function App() {
 
   return (
-    <div className="text-gray-200 bg-slate-800 flex-col h-max pb-32">
+    <div className="text-gray-200 bg-slate-800 flex-col h-max pb-96">
 
       <Navbar></Navbar>
       <Welcome></Welcome>
