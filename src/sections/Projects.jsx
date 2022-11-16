@@ -6,7 +6,7 @@ export default function Projects() {
     return (
         <>
             <SectionTitle>Projects</SectionTitle>
-            <div className="flex flex-wrap justify-around space">
+            <div className="flex flex-wrap justify-around">
 
                 <Project>Birds</Project>
                 <Project>Blackjack</Project>

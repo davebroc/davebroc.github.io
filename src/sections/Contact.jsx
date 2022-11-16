@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
     return (
-        <form className="flex-col p-4 bg-blue-600 mt-32">
+        <form className="flex-col p-4 bg-blue-600 mt-32 rounded-md">
             <h1 className="text-center mb-4 text-2xl">Get in touch</h1>
             <div className="flex justify-between text-black">
 
