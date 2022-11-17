@@ -10,7 +10,13 @@ export default function Projects() {
             <div className="flex flex-wrap justify-around">
 
                 {projects.map(project => (
-                    <ProjectItem description={project.description} skills={project.skills} imgURL={project.imgURL}>{project.title}</ProjectItem>
+                    <ProjectItem
+                        imgURL={project.imgURL}
+                        skills={project.skills}
+                        live={project.live}
+                        repo={project.repo}
+                        description={project.description}
+                    >{project.title}</ProjectItem>
                 ))}
 
                 {/* <ProjectItem>Birds</ProjectItem>
