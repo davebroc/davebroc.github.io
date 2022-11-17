@@ -5,8 +5,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': "url('./public//solar.jpg')",
+        'hero': "url('./src/assets/solar.jpg')",
       },
+      spacing: {
+        '104': '26rem',
+      }
     }
   },
   plugins: [],

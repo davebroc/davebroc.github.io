@@ -1,5 +1,6 @@
 import React from 'react'
-import Project from '../components/Project.jsx'
+import ProjectItem from '../components/ProjectItem.jsx'
+import projects from '../data/projects.js'
 import SectionTitle from '../components/SectionTitle.jsx'
 
 export default function Projects() {
@@ -8,10 +9,14 @@ export default function Projects() {
             <SectionTitle>Projects</SectionTitle>
             <div className="flex flex-wrap justify-around">
 
-                <Project>Birds</Project>
-                <Project>Blackjack</Project>
-                <Project>ANDIE</Project>
-                <Project>This Website</Project>
+                {projects.map(project => (
+                    <ProjectItem description={project.description} skills={project.skills} imgURL={project.imgURL}>{project.title}</ProjectItem>
+                ))}
+
+                {/* <ProjectItem>Birds</ProjectItem>
+                <ProjectItem>Blackjack</ProjectItem>
+                <ProjectItem>ANDIE</ProjectItem>
+                <ProjectItem>This Website</ProjectItem> */}
             </div>
         </>
     )
