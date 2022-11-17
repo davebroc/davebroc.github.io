@@ -16,14 +16,6 @@ export default [{
 
 },
 {
-    title: 'Portfolio Website',
-    imgURL: './src/assets/porfolio.jpg',
-    skills: ['React', 'Tailwind', 'JS', 'HTML'],
-    live: '#',
-    repo: 'https://github.com/davebroc/portfolio',
-    description: 'This website.'
-},
-{
     title: 'ANDIE',
     imgURL: './src/assets/ANDIE.jpg',
     skills: ['Java'],
@@ -31,5 +23,13 @@ export default [{
     repo: 'https://github.com/davebroc/Blackjack-Trainer',
     description: 'A Non-Destructive Image Editor (ANDIE). Built as a university group project with four other students.'
 
+},
+{
+    title: 'Portfolio Website',
+    imgURL: './src/assets/porfolio.jpg',
+    skills: ['React', 'Tailwind', 'JS', 'HTML'],
+    live: '#',
+    repo: 'https://github.com/davebroc/portfolio',
+    description: 'This website.'
 }
 ];
