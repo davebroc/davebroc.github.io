@@ -9,7 +9,7 @@ import Contact from './sections/Contact.jsx'
 function App() {
 
   return (
-    <div className="text-gray-200 bg-slate-800 flex-col h-max pb-96">
+    <div className="text-gray-200 bg-slate-800 flex-col h-max pb-48">
 
       <Navbar></Navbar>
       <Welcome></Welcome>
