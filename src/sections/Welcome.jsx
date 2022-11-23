@@ -3,10 +3,19 @@ import SectionTitle from '../components/SectionTitle.jsx'
 
 export default function Welcome() {
     return (
-        <div className="flex justify-center items-center   bg-hero bg-cover bg-center h-56 md:h-96 bg-purple-900">
-            <h1 className="bg-opacity-50 align-middle text-2xl bg-gray-500">
-                Software developer and Energy Analyst
-            </h1>
-        </div>
+        <header className=" bg-hero bg-cover bg-center h-96 md:h-screen bg-neutral-500" >
+            <div className='absolute top-1/2 text-center left-1/2 -translate-xy-half'>
+                {/* position: absolute; */}
+                {/* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */}
+                <h2 className="bg-opacity-50 text-2xl font-bold block">
+                    Hi, I'm David
+                </h2>
+                <h3 className="bg-opacity-50  text-2xl font-bold block">
+                    Software developer and Energy Analyst
+                </h3>
+            </div>
+        </header>
     )
 }

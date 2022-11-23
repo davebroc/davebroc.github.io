@@ -5,7 +5,7 @@ import SectionTitle from '../components/SectionTitle.jsx'
 
 export default function Projects() {
     return (
-        <>
+        <div id='projects'>
             <SectionTitle>Projects</SectionTitle>
             <div className="flex flex-wrap justify-around">
 
@@ -24,6 +24,6 @@ export default function Projects() {
                 <ProjectItem>ANDIE</ProjectItem>
                 <ProjectItem>This Website</ProjectItem> */}
             </div>
-        </>
+        </div>
     )
 }

@@ -5,11 +5,17 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': "url('./src/assets/solar.jpg')",
+        'hero': "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./src/assets/solar.jpg')",
       },
       spacing: {
         '104': '26rem',
+        'half-screen': '50vh'
+      },
+      translate: {
+        '-translate-xy-half': 'translate(-50%, -50%)'
+
       }
+
     }
   },
   plugins: [],
