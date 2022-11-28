@@ -7,7 +7,7 @@ export default function Projects() {
     return (
         <div id='projects'>
             <SectionTitle>Projects</SectionTitle>
-            <div className="flex flex-wrap justify-around">
+            <div className="flex flex-wrap gap-x-5 justify-around">
 
                 {projects.map(project => (
                     <ProjectItem
