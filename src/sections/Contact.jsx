@@ -5,9 +5,8 @@ export default function Contact() {
 
 
 
-
     return (
-        <form className="flex-col p-4 bg-blue-900 md:h-96  mt-32 rounded-md" action='./Contact.jsx' method='post' >
+        <form id='contact' className="flex-col p-4 bg-blue-900 md:h-96  mt-32 rounded-md" action='./Contact.jsx' method='post' >
             <h1 className="text-center mb-4 text-2xl">Get in touch</h1>
             <div className="flex justify-between text-black">
 

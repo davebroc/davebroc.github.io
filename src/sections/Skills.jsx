@@ -4,7 +4,7 @@ import Skill from '../components/Skill.jsx'
 
 export default function Skills() {
     return (
-        <div>
+        <div id='skills'>
             <SectionTitle>Skills</SectionTitle>
             <div className="flex flex-wrap justify-around">
 

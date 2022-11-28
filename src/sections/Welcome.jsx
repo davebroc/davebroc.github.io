@@ -13,7 +13,7 @@ export default function Welcome() {
                     Hi, I'm David
                 </h2>
                 <h3 className="bg-opacity-50  text-2xl font-bold block">
-                    Software developer and Energy Analyst
+                    Software developer
                 </h3>
             </div>
         </header>
