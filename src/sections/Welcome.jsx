@@ -3,7 +3,7 @@ import SectionTitle from '../components/SectionTitle.jsx'
 
 export default function Welcome() {
     return (
-        <header className=" bg-hero bg-cover bg-center h-96 md:h-screen bg-neutral-500" >
+        <header className="relative bg-hero bg-cover bg-center h-96 md:h-screen bg-neutral-500" >
             <div className='absolute top-1/2 text-center left-1/2 -translate-xy-half'>
                 {/* position: absolute; */}
                 {/* top: 50%;
