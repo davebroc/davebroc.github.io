@@ -11,13 +11,13 @@ export default function Footer() {
                     <img className='w-10 h-10 m-2' src='./src/assets/github.png' alt='Github repo' />
                 </a>
 
-                <a href='https://github.com/davebroc' target="_blank">
-                    <img className='w-10 h-10 m-2' src='./src\assets\LinkedIn_icon.svg.png' alt='Github repo' />
+                <a href='https://www.linkedin.com/in/david-brockbank/' target="_blank">
+                    <img className='w-10 h-10 m-2' src='./src\assets\LinkedIn_icon.svg.png' alt='LinkedIn' />
                 </a>
 
-                <a href='https://github.com/davebroc' target="_blank">
+                {/* <a href='https://github.com/davebroc' target="_blank">
                     <img className='w-10 h-10 m-2' src='./src/assets/github.png' alt='Github repo' />
-                </a>
+                </a> */}
 
             </div>
 

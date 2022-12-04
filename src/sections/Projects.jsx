@@ -19,10 +19,7 @@ export default function Projects() {
                     >{project.title}</ProjectItem>
                 ))}
 
-                {/* <ProjectItem>Birds</ProjectItem>
-                <ProjectItem>Blackjack</ProjectItem>
-                <ProjectItem>ANDIE</ProjectItem>
-                <ProjectItem>This Website</ProjectItem> */}
+
             </div>
         </div>
     )

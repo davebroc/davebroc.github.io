@@ -4,6 +4,7 @@ export default function ProjectItem({ children, id, skills, imgURL, live, repo, 
     let target;
     children === "Portfolio Website" ? target = '' : target = '_blank';
 
+
     return (
         <div className="my-4 h-96 w-104 rounded-lg overflow-hidden relative  bg-slate-600">
             <img src={imgURL} alt={children} className='w-full h-1/2 object-cover object-top' />
@@ -16,9 +17,12 @@ export default function ProjectItem({ children, id, skills, imgURL, live, repo, 
                             <img className='w-10 h-10 m-2' src='./src/assets/github.png' alt='Github repo' />
                         </a>
 
-                        <a href={live} target={target}>
-                            <img className='w-10 h-10 m-2' src='./src/assets/internet-icon.svg' alt='Live' />
-                        </a>
+                        {live !== undefined &&
+                            <a href={live} target={target}>
+                                <img className='w-10 h-10 m-2' src='./src/assets/internet-icon.svg' alt='Live' />
+                            </a>
+
+                        }
                     </div>
                 </div>
                 <p>{description}</p>
