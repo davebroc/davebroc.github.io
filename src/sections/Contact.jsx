@@ -24,7 +24,7 @@ export default function Contact() {
 
     return (
         <section id='contact' className='scroll-mt-18 sm:scroll-mt-16'>
-            <form ref={form} onSubmit={sendEmail} className="flex-col p-4 bg-stone-600 md:h-96  mt-32 rounded-md"  >
+            <form ref={form} onSubmit={sendEmail} className="flex-col p-4 bg-slate-600 md:h-96  mt-32 rounded-md"  >
                 <h1 className="text-center mb-4 text-2xl">Get in touch</h1>
                 <div className="flex justify-between text-black">
                     <input name='name' type="text" placeholder="Name" className="w-1/2 mr-1 p-2 rounded-md"></input>
