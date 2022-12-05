@@ -7,7 +7,7 @@ export default function About() {
         <section id='about' className='scroll-mt-18 sm:scroll-mt-16'>
             <SectionTitle>About</SectionTitle>
             <p>Final year student at University of Otago studying Computer Science and Energy Science/Technology with
-                <a className='underline' href='src\assets\academic-transcript.pdf' target='_blank'> excellent grades.</a>
+                <a className='underline' href='./academic-transcript.pdf' target='_blank'> excellent grades.</a>
             </p>
             <br></br>
             <p>

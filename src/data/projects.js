@@ -12,7 +12,7 @@ export default [{
     skills: ['React', 'JS', 'HTML', 'CSS'],
     live: 'https://davebroc.github.io/Blackjack/',
     repo: 'https://github.com/davebroc/Blackjack',
-    description: 'In Blackjack there is a optimal set of moves depending on the cards in play. This web-application trains the user in this optimal strategy.'
+    description: 'A basic game of Blackjack built using React. Betting, rule customization, and user training are under development.'
 
 },
 {
