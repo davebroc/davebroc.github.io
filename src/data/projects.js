@@ -1,7 +1,7 @@
 export default [{
     title: 'Birds of Aotearoa',
     imgURL: './birds.JPG',
-    skills: ['JS', 'HTML', 'CSS'],
+    skills: ['JS', 'HTML', 'CSS', 'MongoDB', 'Node JS'],
     live: 'https://davebroc.github.io/Birds-of-Aotearoa',
     repo: 'https://github.com/davebroc/Birds-of-Aotearoa',
     description: 'A static website displaying birds native to Aotearoa. Currently a Front-end application with the back-end still in development.'
@@ -27,7 +27,7 @@ export default [{
 {
     title: 'Portfolio Website',
     imgURL: './portfolio.PNG',
-    skills: ['React', 'Tailwind', 'JS', 'HTML'],
+    skills: ['React', 'Tailwind', 'JS', 'HTML', 'EmailJS'],
     // live: '#',
     repo: 'https://github.com/davebroc/portfolio',
     description: 'This website.'
