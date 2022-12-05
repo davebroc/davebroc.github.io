@@ -15,9 +15,12 @@ export default function About() {
             </p>
 
             <br></br>
-            <p>
-                I have experience working in C, Python, Java, and JavaScript (React).
-            </p>
+            <p>Outside of my studies and career I enjoy socializing, snowboarding, the gym, and tramping.</p>
+            <br></br>
+            <p>I am currently available for work within the tech and/or energy industries.</p>            <br></br>
+            {/* <p>
+                My experience includes work in C, Python, Java, and JavaScript (React).
+            </p> */}
         </section>
     )
 }
