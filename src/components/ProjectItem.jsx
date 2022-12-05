@@ -14,12 +14,12 @@ export default function ProjectItem({ children, id, skills, imgURL, live, repo, 
                     <h1 id={id && id} className='text-2xl py-3'>{children}</h1>
                     <div className='flex justify-between'>
                         <a href={repo} target="_blank">
-                            <img className='w-10 h-10 m-2' src='./src/assets/github.png' alt='Github repo' />
+                            <img className='w-10 h-10 m-2' src='./github.png' alt='Github repo' />
                         </a>
 
                         {live !== undefined &&
                             <a href={live} target={target}>
-                                <img className='w-10 h-10 m-2' src='./src/assets/internet-icon.svg' alt='Live' />
+                                <img className='w-10 h-10 m-2' src='./internet-icon.svg' alt='Live' />
                             </a>
 
                         }
