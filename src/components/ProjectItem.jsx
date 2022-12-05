@@ -6,8 +6,8 @@ export default function ProjectItem({ children, id, skills, imgURL, live, repo, 
 
 
     return (
-        <div className="my-4 h-96 w-104 rounded-lg overflow-hidden relative  bg-slate-600">
-            <img src={imgURL} alt={children} className='w-full h-1/2 object-cover object-top' />
+        <div className="my-4  w-110 rounded-lg overflow-hidden relative  bg-slate-600">
+            <img src={imgURL} alt={children} className='w-full h-52 object-cover object-top' />
 
             <div className='w-11/12 m-auto '>
                 <div className='flex justify-between'>
@@ -25,9 +25,9 @@ export default function ProjectItem({ children, id, skills, imgURL, live, repo, 
                         }
                     </div>
                 </div>
-                <p>{description}</p>
+                <p className='mb-3'>{description}</p>
 
-                <div className='flex gap-4 absolute bottom-4' >
+                <div className='flex gap-2 flex-wrap my-5' >
                     {skills.map(skill => (<p className='p-2 bg-slate-700 rounded-md'>{skill}</p>))}
                 </div>
 

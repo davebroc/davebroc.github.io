@@ -31,7 +31,7 @@ export default function Contact() {
                     <input name='email' type="email" placeholder="Email address" className="w-1/2 ml-1 p-2 rounded-md"></input>
                 </div>
                 <textarea name='message' className="w-full h-48 mt-3 p-2 rounded-md text-black" rows="4" placeholder="What would you like to say?"></textarea>
-                <div className='flex justify-between items-center mt-3'>
+                <div className='flex gap-4 justify-between items-center mt-3'>
                     <button type="submit" className="bg-black p-3 rounded-full">Send</button>
                     <p>Email: <a className='underline' href='mailto:davebrockbank02@gmail.com'>davebrockbank02@gmail.com</a></p>
 

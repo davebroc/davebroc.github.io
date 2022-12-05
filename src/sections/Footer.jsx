@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
     return (
         <footer className='bottom-0 absolute w-full p-5 bg-slate-600'>
-            <p className='text-center '>
+            <p className='sm:text-center text-left '>
                 All rights reserved
             </p>
             <div className='absolute flex  m-0 top-1 right-1'>

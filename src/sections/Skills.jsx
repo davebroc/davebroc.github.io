@@ -1,6 +1,7 @@
 import React from 'react'
 import SectionTitle from '../components/SectionTitle'
-import Skill from '../components/Skill.jsx'
+import SkillItem from '../components/SkillItem.jsx'
+import SkillCategory from '../components/SkillCategory'
 
 export default function Skills() {
     return (
@@ -8,16 +9,18 @@ export default function Skills() {
             <SectionTitle>Skills</SectionTitle>
             <div className="flex flex-wrap justify-around">
 
-                <Skill>React</Skill>
-                <Skill>CSS</Skill>
-                <Skill>HTML</Skill>
-                <Skill>JS</Skill>
-                <Skill>Java</Skill>
-                <Skill>Python</Skill>
-                <Skill>Data Science</Skill>
-                <Skill>Jupyter Lab</Skill>
-                <Skill>Unsupervised Learning</Skill>
-                <Skill>Supervised Learning</Skill>
+                <SkillItem>React</SkillItem>
+                <SkillItem>CSS</SkillItem>
+                <SkillItem>HTML</SkillItem>
+                <SkillItem>JS</SkillItem>
+                <SkillItem>Java</SkillItem>
+
+                <SkillItem>Python</SkillItem>
+                <SkillItem>Jupyter Lab</SkillItem>
+                <SkillItem>Unsupervised Learning</SkillItem>
+                <SkillItem>Supervised Learning</SkillItem>
+
+                {/* <SkillCategory text="Data Science"></SkillCategory> */}
             </div>
         </section>
     )

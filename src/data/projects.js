@@ -1,7 +1,7 @@
 export default [{
     title: 'Birds of Aotearoa',
     imgURL: './birds.JPG',
-    skills: ['JS', 'HTML', 'CSS', 'MongoDB', 'Node JS'],
+    skills: ['JS', 'HTML', 'CSS', 'MongoDB', 'NodeJS'],
     live: 'https://davebroc.github.io/Birds-of-Aotearoa',
     repo: 'https://github.com/davebroc/Birds-of-Aotearoa',
     description: 'A static website displaying birds native to Aotearoa. Currently a Front-end application with the back-end still in development.'
@@ -21,7 +21,7 @@ export default [{
     skills: ['Java'],
     // live: 'https://davebroc.github.io/Blackjack-Trainer/',
     repo: 'https://github.com/davebroc/Blackjack-Trainer',
-    description: 'A Non-Destructive Image Editor (ANDIE). Built as a university group project with four other students.'
+    description: 'A Non-Destructive Image Editor (ANDIE). Built as a university group project with four other students. Features include blurring, cropping, rotating, and colour alterations.'
 
 },
 {
