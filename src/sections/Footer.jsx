@@ -8,11 +8,11 @@ export default function Footer() {
             </p>
             <div className='absolute flex  m-0 top-1 right-1'>
                 <a href='https://github.com/davebroc' target="_blank">
-                    <img className='w-10 h-10 m-2' src='./src/assets/github.png' alt='Github repo' />
+                    <img className='w-10 h-10 m-2' src='./github.png' alt='Github repo' />
                 </a>
 
                 <a href='https://www.linkedin.com/in/david-brockbank/' target="_blank">
-                    <img className='w-10 h-10 m-2' src='./src\assets\LinkedIn_icon.svg.png' alt='LinkedIn' />
+                    <img className='w-10 h-10 m-2' src='./LinkedIn_icon.svg.png' alt='LinkedIn' />
                 </a>
 
 

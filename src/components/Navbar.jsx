@@ -8,7 +8,7 @@ function Navbar() {
             <h1 className="font-bold">David Brockbank</h1>
             <div className="flex  justify-around space-x-10 mr-2">
                 <a href='#projects'>Projects</a>
-                <a href='#skills'>Skills</a>
+                {/* <a href='#skills'>Skills</a> */}
                 <a href='#about'>About</a>
                 <a href='#contact'>Contact</a>
             </div>

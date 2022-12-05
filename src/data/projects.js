@@ -1,6 +1,6 @@
 export default [{
     title: 'Birds of Aotearoa',
-    imgURL: './src/assets/birds.jpg',
+    imgURL: './birds.JPG',
     skills: ['JS', 'HTML', 'CSS'],
     live: 'https://davebroc.github.io/Birds-of-Aotearoa',
     repo: 'https://github.com/davebroc/Birds-of-Aotearoa',
@@ -8,7 +8,7 @@ export default [{
 },
 {
     title: 'Blackjack',
-    imgURL: './src/assets/blackjack.jpg',
+    imgURL: './blackjack.JPG',
     skills: ['React', 'JS', 'HTML', 'CSS'],
     live: 'https://davebroc.github.io/Blackjack/',
     repo: 'https://github.com/davebroc/Blackjack',
@@ -17,7 +17,7 @@ export default [{
 },
 {
     title: 'ANDIE',
-    imgURL: './src/assets/ANDIE.jpg',
+    imgURL: './ANDIE.JPG',
     skills: ['Java'],
     // live: 'https://davebroc.github.io/Blackjack-Trainer/',
     repo: 'https://github.com/davebroc/Blackjack-Trainer',
@@ -26,7 +26,7 @@ export default [{
 },
 {
     title: 'Portfolio Website',
-    imgURL: './src/assets/portfolio.png',
+    imgURL: './portfolio.PNG',
     skills: ['React', 'Tailwind', 'JS', 'HTML'],
     // live: '#',
     repo: 'https://github.com/davebroc/portfolio',
