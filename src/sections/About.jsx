@@ -4,10 +4,20 @@ import SectionTitle from '../components/SectionTitle.jsx'
 
 export default function About() {
     return (
-        <div id='about'>
-
+        <section id='about' className='scroll-mt-18 sm:scroll-mt-16'>
             <SectionTitle>About</SectionTitle>
-            <p>Aliqua ea ea amet irure veniam et eu. Occaecat nulla duis non proident incididunt velit voluptate id. Ea sint quis elit minim dolore do irure commodo tempor Lorem dolor aliquip laborum culpa. Cillum aliqua Lorem tempor in. Ullamco id dolor sunt ullamco laborum qui ex ullamco eiusmod nostrud laborum sit minim. Duis elit sint consectetur enim ea consequat minim.</p>
-        </div>
+            <p>Final year student at University of Otago studying Computer Science and Energy Science/Technology with
+                <a className='underline' href='src\assets\academic-transcript.pdf' target='_blank'> excellent grades.</a>
+            </p>
+            <br></br>
+            <p>
+                During my studies, I have built front-end and back-end sections of a web application, worked cooperative in a team using Java to build a image editing program, and have basic experience with data science regression and classification modelling.
+            </p>
+
+            <br></br>
+            <p>
+                I have experience working in C, Python, Java, and JavaScript (React).
+            </p>
+        </section>
     )
 }

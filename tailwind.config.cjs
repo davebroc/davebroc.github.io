@@ -9,11 +9,8 @@ module.exports = {
       },
       spacing: {
         '104': '26rem',
-        'half-screen': '50vh'
-      },
-      translate: {
-        '-translate-xy-half': 'translate(-50%, -50%)'
-
+        'half-screen': '50vh',
+        '18': '4.5rem'
       }
 
     }

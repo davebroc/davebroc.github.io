@@ -5,7 +5,7 @@ import SectionTitle from '../components/SectionTitle.jsx'
 
 export default function Projects() {
     return (
-        <div id='projects'>
+        <section id='projects' className='scroll-mt-18 sm:scroll-mt-16'>
             <SectionTitle>Projects</SectionTitle>
             <div className="flex flex-wrap gap-x-5 justify-around">
 
@@ -21,6 +21,6 @@ export default function Projects() {
 
 
             </div>
-        </div>
+        </section>
     )
 }

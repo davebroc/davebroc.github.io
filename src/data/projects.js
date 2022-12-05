@@ -4,7 +4,7 @@ export default [{
     skills: ['JS', 'HTML', 'CSS'],
     live: 'https://davebroc.github.io/Birds-of-Aotearoa',
     repo: 'https://github.com/davebroc/Birds-of-Aotearoa',
-    description: 'A interactive database of birds native to Aotearoa. Features include filtering, CRUD interface, and dark mode.'
+    description: 'A static website displaying birds native to Aotearoa. Currently a Front-end application with the back-end still in development.'
 },
 {
     title: 'Blackjack',
@@ -26,7 +26,7 @@ export default [{
 },
 {
     title: 'Portfolio Website',
-    imgURL: './src/assets/porfolio.jpg',
+    imgURL: './src/assets/portfolio.png',
     skills: ['React', 'Tailwind', 'JS', 'HTML'],
     // live: '#',
     repo: 'https://github.com/davebroc/portfolio',
