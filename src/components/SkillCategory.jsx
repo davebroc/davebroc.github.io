@@ -1,26 +1,35 @@
 import React from 'react'
+import SkillItem from './SkillItem'
 
 export default function SkillCategory({ text, children, id }) {
+    const [isOpen, setOpen] = React.useState(false);
 
-    {
-        children.map(skillItem => (
-            <ProjectItem
-                imgURL={project.imgURL}
-                skills={project.skills}
-                live={project.live}
-                repo={project.repo}
-                description={project.description}
-            >{project.title}</ProjectItem>
-        ))
+
+
+
+
+    function showChildren() {
+        setOpen(!isOpen);
+
     }
 
 
-
     return (
-        <button className="flex text-center justify-center items-center p-0 m-4 rounded-full h-24 w-24 inline-block bg-fuchsia-700">
-            <h2 id={id && id} className='text-2xl m-0 p-0'>{text}</h2>
+        <div>
 
-        </button>
+            <button onMouseEnter={showChildren} className="flex text-center justify-center items-center p-2 m-4 rounded-md  inline-block bg-fuchsia-700">                {text}
+
+            </button>
+            {isOpen ? (
+                <ul >
+                    {children.map(skillItem => (
+                        <li>
+                            <SkillItem>{skillItem}</SkillItem>
+                        </li>
+                    ))}
+                </ul>
+            ) : null}
+        </div>
 
     )
 }

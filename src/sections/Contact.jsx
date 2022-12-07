@@ -18,7 +18,6 @@ export default function Contact() {
         emailjs.sendForm(serviceID, templateID, form.current, publicKey)
             .then((result) => {
                 console.log(result.text);
-                // setMsgSend(true)
                 setMsgSend(true)
                 setTimeout(() => {
                     setMsgSend(false)

@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function SkillItem({ children, id }) {
     return (
-        <div className="flex text-center justify-center items-center p-0 m-4 rounded-full h-24 w-24 inline-block bg-fuchsia-700">
-            <h2 id={id && id} className='text-2xl m-0 p-0'>{children}</h2>
+        <div className="flex text-center justify-center items-center p-2 m-4 rounded-md  bg-fuchsia-700">
+            {children}
         </div>
 
     )
