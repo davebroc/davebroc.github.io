@@ -12,7 +12,18 @@ module.exports = {
         '110': '27rem',
         'half-screen': '50vh',
         '18': '4.5rem'
-      }
+      },
+      animation: {
+        fade: 'fadeIn 5s ease-in-out',
+      },
+
+      // that is actual animation
+      keyframes: theme => ({
+        fadeIn: {
+          '0%': { opacity: 1 },
+          '100%': { opacity: 0 },
+        },
+      }),
 
     }
   },
