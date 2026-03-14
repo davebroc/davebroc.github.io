@@ -4,15 +4,82 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/x-icon" href="/icons/favicon.ico">
+  <link rel="preload" as="font" type="font/woff2" href="/fonts/space-grotesk-latin-var.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="/fonts/fraunces-latin-var.woff2" crossorigin>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>David Brockbank | Software Engineer</title>
+  <style>
+    :root {
+      --background: oklch(0.15 0.02 257);
+      --foreground: oklch(0.98 0.01 240);
+      --primary: oklch(0.8 0.12 200);
+      --muted-foreground: oklch(0.74 0.02 250);
+    }
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--foreground);
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji",
+        "Segoe UI Emoji", sans-serif;
+    }
+    #root {
+      min-height: 100vh;
+    }
+    .app-loading {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+    .app-loading__inner {
+      display: grid;
+      gap: 12px;
+      justify-items: center;
+      text-align: center;
+    }
+    .app-loading__spinner {
+      width: 44px;
+      height: 44px;
+      border-radius: 9999px;
+      border: 3px solid color-mix(in oklch, var(--foreground) 18%, transparent);
+      border-top-color: var(--primary);
+      animation: app-spin 0.9s linear infinite;
+    }
+    .app-loading__title {
+      font-size: 14px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: color-mix(in oklch, var(--foreground) 72%, transparent);
+    }
+    .app-loading__hint {
+      font-size: 12px;
+      color: var(--muted-foreground);
+      max-width: 46ch;
+    }
+    @keyframes app-spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .app-loading__spinner {
+        animation: none;
+      }
+    }
+  </style>
   
-  <script type="module" crossorigin src="/assets/index-491ab588.js"></script>
-  <link rel="stylesheet" href="/assets/index-e62d6a9b.css">
+  <script type="module" crossorigin src="/assets/index-3f316f3c.js"></script>
+  <link rel="stylesheet" href="/assets/index-d8070077.css">
 </head>
 
 <body>
   <div id="root">
+    <div class="app-loading" aria-busy="true" aria-live="polite" role="status">
+      <div class="app-loading__inner">
+        <div class="app-loading__spinner" aria-hidden="true"></div>
+        <div class="app-loading__hint">Warming up…</div>
+      </div>
+    </div>
   </div>
 </body>
 
